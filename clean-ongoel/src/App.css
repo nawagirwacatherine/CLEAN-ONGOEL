@@ -5,7 +5,23 @@
     box-sizing: border-box;
 }
 
-.nav {
-    text-decoration: none;
-    
+.app {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color:rgb(142, 229, 142);
+    min-height: 100vh;
+    padding: 20px;
+    border-radius: 5px;
 }
+
+.nav {
+    background-color: rgb(96, 184, 219);
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    
+  } 

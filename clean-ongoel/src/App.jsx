@@ -10,16 +10,17 @@ import { Routes, Route, Link, BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-
+<div className="app">
     <BrowserRouter>
-    
         <nav className="nav">
+        <div className="nav-items-wrapper">
           <Link to="/" className="nav-item">Home</Link>
           <Link to="/about-us" className="nav-item">About Us</Link>
           <Link to="/get-involved" className="nav-item">Get Involved</Link>
           <Link to="/projects" className="nav-item">Projects</Link>
           <Link to="/news" className="nav-item">News</Link>
           <Link to="/contact" className="nav-item">Contact</Link>
+          </div>
         </nav>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -30,6 +31,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
+      </div>
   );
 }
 
