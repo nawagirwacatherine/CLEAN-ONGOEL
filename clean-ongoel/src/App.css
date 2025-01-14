@@ -8,20 +8,45 @@
 .app {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color:rgb(142, 229, 142);
     min-height: 100vh;
     padding: 20px;
     border-radius: 5px;
+    background-color: rgb(179, 211, 179);
 }
 
 .nav {
-    background-color: rgb(96, 184, 219);
+
 }
 
 .nav-item {
     color: white;
     text-decoration: none;
-    padding: 10px;
+    padding: 25px;
     font-size: 18px;
+    margin: 5px;
     
   } 
+
+  .hero-section {
+    margin: 5px;
+    padding: 50px;
+     background-color:rgb(7, 253, 7);
+  }
+
+  .mission {
+    margin: 5px;
+    padding: 50px;
+    background-color:rgb(7, 253, 7);
+  }
+
+  .recent-news{
+    margin: 5px;
+    padding: 50px;
+    background-color:rgb(7, 253, 7);
+  }
+
+  .footer {
+    margin: 5px;
+    padding: 50px;
+    background-color:rgb(7, 253, 7);
+  }
