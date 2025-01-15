@@ -1,11 +1,11 @@
-import imagesBanner1 from "../images/banner1.jpg";
+import imagesBanner2 from "../images/banner2.jpg";
 
 function  HeroSection () {
     return (
         <>
 <div className="hero-section">
 
-<img src={imagesBanner1.jpg} alt="banner1" className="image" />
+<img src={imagesBanner2} alt="banner2" className="banner2" />
 
 </div>
         </>

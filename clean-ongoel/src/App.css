@@ -14,7 +14,21 @@
     background-color: rgb(179, 211, 179);
 }
 
+.logo{
+  border-radius: 3px;
+  width: 50px; 
+  margin-right: 20px;
+}
+
+.banner2{
+  border-radius: 10px;
+  width: 700px;
+  padding: 20px;
+}
+
 .nav {
+
+  display: flex;
 
 }
 
@@ -30,7 +44,7 @@
   .hero-section {
     margin: 5px;
     padding: 50px;
-     background-color:rgb(7, 253, 7);
+   
   }
 
   .mission {

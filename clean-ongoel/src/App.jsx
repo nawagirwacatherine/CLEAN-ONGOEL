@@ -6,6 +6,7 @@ import GetInvolved from "./pages/GetInvolved.jsx";
 import Projects from "./pages/Projects.jsx";
 import News from "./pages/News.jsx";
 import Contact from "./pages/Contact.jsx";
+import imagesLogo from "./images/logo.jpg";
 import { Routes, Route, Link, BrowserRouter } from "react-router-dom";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
 <div className="app">
     <BrowserRouter>
         <nav className="nav">
+        <img src={imagesLogo} alt="logo.jpg" className="logo" />
         <div className="nav-items-wrapper">
           <Link to="/" className="nav-item">Home</Link>
           <Link to="/about-us" className="nav-item">About Us</Link>
