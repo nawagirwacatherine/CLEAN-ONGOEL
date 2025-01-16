@@ -11,7 +11,7 @@
     min-height: 100vh;
     padding: 20px;
     border-radius: 5px;
-    background-color: rgb(179, 211, 179);
+
 }
 
 .logo{
@@ -26,18 +26,27 @@
   padding: 20px;
 }
 
-.nav {
-
+.hero-section {
   display: flex;
+}
+
+.nav {
+  justify-content: center;
+  display: flex;
+  padding: 50px;
 
 }
 
 .nav-item {
-    color: white;
+  background-color: rgb(30, 156, 125);
+color: white;
     text-decoration: none;
     padding: 25px;
     font-size: 18px;
     margin: 5px;
+    align-items: center;
+    
+    border-radius: 5px;
     
   } 
 
@@ -50,17 +59,16 @@
   .mission {
     margin: 5px;
     padding: 50px;
-    background-color:rgb(7, 253, 7);
+   
   }
 
   .recent-news{
     margin: 5px;
     padding: 50px;
-    background-color:rgb(7, 253, 7);
   }
 
   .footer {
     margin: 5px;
     padding: 50px;
-    background-color:rgb(7, 253, 7);
+   
   }
