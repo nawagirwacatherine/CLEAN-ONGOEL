@@ -14,11 +14,7 @@
 
 }
 
-.logo{
-  border-radius: 3px;
-  width: 50px; 
-  margin-right: 20px;
-}
+
 
 .banner2{
   border-radius: 10px;
@@ -67,34 +63,63 @@ color: white;
     justify-content: center;
     margin: 5px;
     padding: 50px;
+  
   }
   .blood1 {
+    background-color: rgb(30, 156, 125);
+    border-radius: 7px;
     width: 400px;
     height: 200px;
     padding: 20px;
   }
 
   .health1{
+    border-radius: 7px;
+    background-color: rgb(30, 156, 125);
     width: 400px;
     height: 200px;
     padding: 20px;
   }
 
   .vol1 {
+    border-radius: 7px;
+    background-color: rgb(30, 156, 125);
     width: 400px;
     height: 200px;
     padding: 20px;
   }
 
   .sports6{
+    border-radius: 7px;
+    background-color: rgb(30, 156, 125);
     width: 400px;
     height: 200px;
     padding: 20px;
   }
 
   .footer {
+    border-radius: 3px;
     margin: 5px;
     padding: 50px;
     background-color: rgb(30, 156, 125) ;
    
+  }
+
+  .logo{
+    border-radius: 3px;
+    width: 50px; 
+    margin-right: 20px;
+  }
+  .footer2{
+    border-radius: 3px;
+    width: 50px; 
+  }
+  .footer3{
+    border-radius: 3px;
+    width: 50px; 
+  }
+  
+  .footer4{
+    border-radius: 3px;
+    width: 50px; 
   }

@@ -1,5 +1,9 @@
 import Footer from "../components/Footer.jsx"
-import RecentNews from "../components/RecentNews.jsx"
+import imagesBible2 from "../images/bible2.jpg";
+import imagesBlood2 from "../images/blood2.jpg";
+import imagesVol4 from "../images/vol4.jpg";
+import imagesHealth2 from "../images/health2.jpg";
+
 
 function  GetInvolved () {
     return (
@@ -11,7 +15,12 @@ Peace messengers from around the world gathered in Seoul, South Korea at the “
 War is not a polite recreation but the vilest thing in life, and we ought to understand that and not play at war.
 </div>
 
-< RecentNews/>
+<div>
+     <img src={imagesBible2} alt="blood2" className="blood2" />
+     <img src={imagesBlood2 } alt="blood2" className="blood2" />
+     <img src={imagesVol4} alt="vol2" className="vol2" />
+     <img src={imagesHealth2} alt="health2" className="health2" />
+</div>
          < Footer/>
         </>
  

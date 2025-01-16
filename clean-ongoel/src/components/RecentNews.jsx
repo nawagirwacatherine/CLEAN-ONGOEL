@@ -1,6 +1,6 @@
 import imagesBlood1 from "../images/blood1.jpg";
 import imagesHealth1 from "../images/health1.jpg";
-import imagesVol1 from "../images/vol1.jpg";
+import imagesVol2 from "../images/vol2.jpg";
 import imagesSports6 from "../images/sports6.jpg";
 
 function  RecentNews() {
@@ -11,7 +11,7 @@ function  RecentNews() {
    <div>
    <img src={imagesBlood1} alt="banner2" className="blood1" />
    <img src={imagesHealth1} alt="banner2" className="health1" />
-   <img src={imagesVol1} alt="banner2" className="vol1" />
+   <img src={imagesVol2} alt="banner2" className="vol1" />
    <img src={imagesSports6} alt="banner2" className="sports6" />
    </div>
 </div>
