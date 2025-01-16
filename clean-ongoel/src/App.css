@@ -63,12 +63,38 @@ color: white;
   }
 
   .recent-news{
+    display: flex;
+    justify-content: center;
     margin: 5px;
     padding: 50px;
+  }
+  .blood1 {
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+  }
+
+  .health1{
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+  }
+
+  .vol1 {
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+  }
+
+  .sports6{
+    width: 400px;
+    height: 200px;
+    padding: 20px;
   }
 
   .footer {
     margin: 5px;
     padding: 50px;
+    background-color: rgb(30, 156, 125) ;
    
   }

@@ -1,7 +1,9 @@
+import Footer from "../components/Footer.jsx"
+
 function  Projects () {
     return (
         <>
-        
+         < Footer/>
         </>
  
     )

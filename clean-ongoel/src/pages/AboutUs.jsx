@@ -1,7 +1,10 @@
+import Footer from "../components/Footer.jsx"
+
+
 function  AboutUs () {
     return (
         <>
-        
+         < Footer/>
         </>
  
     )
