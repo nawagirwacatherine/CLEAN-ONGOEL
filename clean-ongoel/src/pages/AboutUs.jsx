@@ -1,9 +1,13 @@
+import imagesHwpl1 from "../images/hwpl1.jpg";
+import imagesFooter from "../images/footer.jpg";
 import Footer from "../components/Footer.jsx"
 
 
 function  AboutUs () {
     return (
         <>
+             <img src={imagesHwpl1} alt="hwpl1" className="image" />
+            <img src={imagesFooter} alt="blood2" className="blood2" />
         <div> 
 CLEAN ONGOEL UGANDA is a Korean NON Government Organization that is remarkably impacting the lives of Ugandans.
 Having been established about 3 years ago, our achievements are quite tremendous and our success story is clearly visible in such a short period of time. Our main offices are located in Nakulabye, a city suburb about 10km west of the city Centre. There is also a branch in Nasana.
