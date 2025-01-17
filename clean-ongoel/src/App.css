@@ -103,6 +103,16 @@ color: white;
     padding: 20px;
   }
 
+  .get-involved {
+    display: flex;
+  }
+
+  .blood2 {
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+  }
+
   .projects {
     text-align: center;
   border-radius: 20px;
@@ -118,11 +128,17 @@ color: white;
   .projects-item {
 
     display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   text-align: center;
   gap: 10px;
 
+  }
+
+  .image {
+    width: 400px;
+    height: 200px;
+    padding: 20px;
   }
 
   .footer {

@@ -15,11 +15,11 @@ Peace messengers from around the world gathered in Seoul, South Korea at the “
 War is not a polite recreation but the vilest thing in life, and we ought to understand that and not play at war.
 </div>
 
-<div>
+<div className="get-involved">
      <img src={imagesBible2} alt="blood2" className="blood2" />
      <img src={imagesBlood2 } alt="blood2" className="blood2" />
-     <img src={imagesVol4} alt="vol2" className="vol2" />
-     <img src={imagesHealth2} alt="health2" className="health2" />
+     <img src={imagesVol4} alt="vol2" className="blood2" />
+     <img src={imagesHealth2} alt="health2" className="blood2" />
 </div>
          < Footer/>
         </>
