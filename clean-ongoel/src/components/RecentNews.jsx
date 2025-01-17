@@ -8,10 +8,20 @@ function  RecentNews() {
         <>
              <div className="recent-news">
    <h1>RecentNews</h1>
-   <div>
+   <div  className="recent-news">
+    <section>
+    <h1>BLOOD DONATION</h1>
    <img src={imagesBlood1} alt="banner2" className="blood1" />
+   </section>
+   <h1>HEALTH CAMP</h1>
    <img src={imagesHealth1} alt="banner2" className="health1" />
+
+   </div>
+
+   <div  className="recent-news2">
+   <h1>VOLUNTEERING</h1>
    <img src={imagesVol2} alt="banner2" className="vol1" />
+   <h1>BIBLE STUDY</h1>
    <img src={imagesSports6} alt="banner2" className="sports6" />
    </div>
 </div>

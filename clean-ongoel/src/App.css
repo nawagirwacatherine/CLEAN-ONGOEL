@@ -59,14 +59,23 @@ color: white;
   }
 
   .recent-news{
-    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     justify-content: center;
     margin: 5px;
     padding: 50px;
   
   }
+  .recent-news1 {
+    font-size: 7px;
+    display: flex;
+  }
+
+  .recent-news2{
+    font-size: 7px;
+    display: flex;
+  }
   .blood1 {
-    background-color: rgb(30, 156, 125);
+    
     border-radius: 7px;
     width: 400px;
     height: 200px;
@@ -75,7 +84,6 @@ color: white;
 
   .health1{
     border-radius: 7px;
-    background-color: rgb(30, 156, 125);
     width: 400px;
     height: 200px;
     padding: 20px;
@@ -83,7 +91,6 @@ color: white;
 
   .vol1 {
     border-radius: 7px;
-    background-color: rgb(30, 156, 125);
     width: 400px;
     height: 200px;
     padding: 20px;
@@ -91,13 +98,36 @@ color: white;
 
   .sports6{
     border-radius: 7px;
-    background-color: rgb(30, 156, 125);
     width: 400px;
     height: 200px;
     padding: 20px;
   }
 
+  .projects {
+    text-align: center;
+  border-radius: 20px;
+  }
+  .projects-section {
+    display: flex;
+  flex-direction: column;
+  align-items:center; 
+  gap: 20px;
+   
+  }
+
+  .projects-item {
+
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+
+  }
+
   .footer {
+    display: flex;
+    height: 200px;
     border-radius: 3px;
     margin: 5px;
     padding: 50px;
