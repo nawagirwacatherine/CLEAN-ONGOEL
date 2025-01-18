@@ -113,31 +113,87 @@ color: white;
     padding: 20px;
   }
 
-  .projects {
-    text-align: center;
-  border-radius: 20px;
-  }
-  .projects-section {
+  .content {
+    gap: 20px;
     display: flex;
-  flex-direction: column;
-  align-items:center; 
-  gap: 20px;
-   
+    align-items: center;
   }
 
+  .content1{
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px;
+    border: 1px solid  #359c27;
+    background-color: rgb(30, 156, 125);
+    border-radius: 5px;
+
+  }
+
+  .content2{
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px;
+    border: 1px solid #359c27;
+    background-color: rgb(30, 156, 125);
+    border-radius: 5px;
+  }
+
+  .get-involved {
+     display: flex;
+     flex-direction: column;
+    padding: 2px;
+    margin: 30px;
+  }
+
+  .get-involved1{
+  gap: 20px;
+  }
+
+  .get-involved2{
+
+  }
+
+  .blood-get1 {
+    width: 400px;
+    height: 200px;
+  }
+
+  .blood-get2{
+    width: 400px;
+    height: 200px;
+  }
+
+  .blood-get3{
+    width: 400px;
+    height: 200px;
+  }
+
+  .blood-get4{
+    width: 400px;
+    height: 200px;
+  }
+
+  .projects{
+    display: flex;
+    align-items: center;
+  }
   .projects-item {
 
     display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-align: center;
-  gap: 10px;
+    flex-direction: column;
+    width: 200px;
 
   }
 
   .image {
-    width: 400px;
-    height: 200px;
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+  }
+
+  .blood2 {
+    width: 600px;
+    height: 400px;
     padding: 20px;
   }
 

@@ -16,10 +16,18 @@ War is not a polite recreation but the vilest thing in life, and we ought to und
 </div>
 
 <div className="get-involved">
-     <img src={imagesBible2} alt="blood2" className="blood2" />
-     <img src={imagesBlood2 } alt="blood2" className="blood2" />
-     <img src={imagesVol4} alt="vol2" className="blood2" />
-     <img src={imagesHealth2} alt="health2" className="blood2" />
+    <div className="get-involved1">
+    <p>Biblestudy</p>
+     <img src={imagesBible2} alt="blood2" className="blood-get1" />
+     <p>Blood Donation</p>
+     <img src={imagesBlood2 } alt="blood2" className="blood-get2" />
+     </div>
+     <div className="get-involved2">
+        <p>Volunteering</p>
+     <img src={imagesVol4} alt="vol2" className="blood-get3" />
+     <p>Health camps</p>
+     <img src={imagesHealth2} alt="health2" className="blood-get4" />
+     </div>
 </div>
          < Footer/>
         </>
