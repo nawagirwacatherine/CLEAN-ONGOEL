@@ -22,10 +22,6 @@
   padding: 20px;
 }
 
-.hero-section {
-  display: flex;
-}
-
 .nav {
   justify-content: center;
   display: flex;
@@ -47,8 +43,9 @@ color: white;
   } 
 
   .hero-section {
-    margin: 5px;
-    padding: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
    
   }
 
@@ -174,6 +171,7 @@ color: white;
   }
 
   .projects{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: flex;
     align-items: center;
   }
