@@ -57,19 +57,29 @@ color: white;
 
   .recent-news{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    justify-content: center;
     margin: 5px;
     padding: 50px;
   
   }
   .recent-news1 {
-    font-size: 7px;
+    justify-content: center;
     display: flex;
+    font-size: 15px;
+  
+  }
+
+  .recent-newsblood {
+    padding: 15px;
+  }
+
+  .recent-newshealth{
+    padding: 5px;
   }
 
   .recent-news2{
-    font-size: 7px;
+    font-size: 15px;
     display: flex;
+    justify-content: center;
   }
   .blood1 {
     
@@ -136,18 +146,16 @@ color: white;
   }
 
   .get-involved {
-     display: flex;
-     flex-direction: column;
-    padding: 2px;
-    margin: 30px;
+    display: flex;
+   justify-content: center;
+   padding: 10px;
+    gap: 15px;
+   
   }
 
   .get-involved1{
-  gap: 20px;
-  }
-
-  .get-involved2{
-
+  
+  
   }
 
   .blood-get1 {
@@ -172,14 +180,18 @@ color: white;
 
   .projects{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    display: flex;
-    align-items: center;
   }
-  .projects-item {
 
+  .projects-section{
+    padding: 30px;
     display: flex;
     flex-direction: column;
-    width: 200px;
+
+  }
+  .projects-item {
+  display: flex;
+  flex-direction: row;
+    width: 100px;
 
   }
 
@@ -196,6 +208,7 @@ color: white;
   }
 
   .footer {
+    gap: 70px;
     display: flex;
     height: 200px;
     border-radius: 3px;
@@ -207,19 +220,37 @@ color: white;
 
   .logo{
     border-radius: 3px;
-    width: 50px; 
+    width: 30px; 
+    height: 30px;
     margin-right: 20px;
   }
   .footer2{
     border-radius: 3px;
-    width: 50px; 
+    width: 30px; 
+    height: 30px;
+  }
+
+  .footer2-text1{
+    gap: 5px;
+    flex-direction: column;
+    display: flex;
+    color: aliceblue;
+    font-size: xx-small;
   }
   .footer3{
     border-radius: 3px;
-    width: 50px; 
+    width: 30px; 
+    height: 30px;
   }
   
   .footer4{
     border-radius: 3px;
-    width: 50px; 
+    width: 30px; 
+    height: 30px;
+  }
+
+  .footer7{
+    border-radius: 3px;
+    width: 30px; 
+    height: 30px;
   }

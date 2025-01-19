@@ -2,7 +2,7 @@
 import imagesHwpl1 from "../images/hwpl1.jpg";
 import imagesHwpl2 from "../images/hwpl2.jpg";
 import imagesHwpl3 from "../images/hwpl3.jpg";
-import imagesHwpl4 from "../images/hwpl4.jpg";
+// import imagesHwpl4 from "../images/hwpl4.jpg";
 import imagesBloodd1 from "../images/bloodd1.jpg";
 import imagesBloodd2 from "../images/bloodd2.jpg";
 import imagesZion1 from "../images/zion1.jpg";
@@ -15,11 +15,20 @@ function  Projects () {
         
 <div className="projects">
   <div className="projects-section">
+  <div >
     <section className="projects-item">
+    <div >
       <img src={imagesHwpl1} alt="hwpl1" className="image" />
+      </div>
+      <div >
       <img src={imagesHwpl2} alt="hwpl1" className="image" />
+      </div>
+      <div>
       <img src={imagesHwpl3} alt="hwpl1" className="image" />
+      </div>
+      {/* <div>
       <img src={imagesHwpl4} alt="hwpl1" className="image" />
+      </div> */}
       <article>
       <p>
       Clean Ongoel does peace work through HWPL
@@ -31,7 +40,9 @@ It aims to achieve world peace through the heavenly culture and restore the glob
       </article>
     </section>
 
-    <section className="projects-item">
+    <div className="">
+
+    <div className="projects-item">
       <img src={imagesBloodd1} alt="Testimonial 2" className="image" />
       <img src={imagesBloodd2} alt="Testimonial 2" className="image" />
       <article>
@@ -39,7 +50,10 @@ It aims to achieve world peace through the heavenly culture and restore the glob
         <br />— James K.
       </p>
       </article>
-    </section>
+    </div>
+    </div>
+
+   
 
     <section className="projects-item">
       <img src={imagesZion1} alt="Testimonial 3" className="image" />
@@ -50,7 +64,7 @@ It aims to achieve world peace through the heavenly culture and restore the glob
       </p>
       </article>
     </section>
-
+    </div>
   </div>
 </div>
          < Footer/>
