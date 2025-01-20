@@ -19,7 +19,7 @@ function  News () {
         <div className="news">
             {
                 videos.map((video, index) => (
-                    <video key={index} controls width="320" height ="240">
+                    <video  key={index} controls width="320" height ="240">
                         <source src= {videos} type="video/mp4"/>
                     </video>
                 ))
