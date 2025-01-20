@@ -47,7 +47,7 @@ It aims to achieve world peace through the heavenly culture and restore the glob
       <img src={imagesBloodd2} alt="Testimonial 2" className="image" />
       <article>
       <p>
-        <br />— James K.
+        <br />
       </p>
       </article>
     </div>
@@ -60,7 +60,7 @@ It aims to achieve world peace through the heavenly culture and restore the glob
       <img src={imagesZion2} alt="Testimonial 3" className="image" />
       <article>
       <p>
-        <br />— Linda T.
+        <br />
       </p>
       </article>
     </section>
