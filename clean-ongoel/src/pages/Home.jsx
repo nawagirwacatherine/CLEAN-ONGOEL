@@ -10,6 +10,7 @@ function  Home () {
            < HeroSection/>
            < Mission/>
            < RecentNews/>
+           Our social platforms
            < Footer/>
         </>
  

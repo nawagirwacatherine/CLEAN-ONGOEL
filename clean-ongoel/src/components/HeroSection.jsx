@@ -1,14 +1,14 @@
-import imagesBanner2 from "../images/banner2.jpg";
+// import imagesBanner2 from "../images/banner2.jpg";
 
 function  HeroSection () {
     return (
         <>
 <div className="hero-section">
 
-<div>CLEAN ONGOEL ASSOCIATION
+<div>CLEAN ONGOEL ASSOCIATION UGANDA
     
-    <p>ITS A NON PROFIT ORGANISATION</p>
-<img src={imagesBanner2} alt="banner2" className="banner2" />
+    <p>It's a non government organization based in uganda</p>
+{/* <img src={imagesBanner2} alt="banner2" className="banner2" /> */}
 </div>
 </div>
         </>
