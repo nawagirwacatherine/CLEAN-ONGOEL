@@ -212,11 +212,23 @@ color: white;
   }
 
   .content {
+    padding: 40px;
     gap: 20px;
     display: flex;
     align-items: center;
   }
 
+  .peace {
+    height: 300px;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3); 
+    background: linear-gradient(rgba(213, 228, 228, 0.1),#f5f8f8),url(images/footer.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
   .content1{
     color: aliceblue;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -284,13 +296,13 @@ color: white;
   .image {
     width: 600px;
     height: 400px;
-    padding: 20px;
+    padding: 40px;
   }
 
   .blood2 {
     width: 600px;
     height: 400px;
-    padding: 20px;
+    padding: 40px;
   }
 
   .footer {

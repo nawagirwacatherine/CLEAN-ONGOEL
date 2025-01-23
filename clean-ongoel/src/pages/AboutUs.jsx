@@ -7,8 +7,17 @@ import imagesHwpl4 from "../images/hwpl4.jpg";
 function  AboutUs () {
     return (
         <>
+
+        <div className="peace"> </div>
+          <h1>Chairman Lee Man He</h1>
+          <p>He spearheads the work of peace world wide</p>
              <img src={imagesHwpl1} alt="hwpl1" className="image" />
-            <img src={imagesFooter} alt="blood2" className="blood2" />
+             <div>
+Peace messengers from around the world gathered in Seoul, South Korea at the “2017 Conference for the Implementation of the Declaration of Peace and Cessation of War”, which is the largest of many conferences held as part of the WARP Summit 2017. Following in the successful steps of the original WARP Summit in 2014 and the following annual commemoration events, this year in Kampala at the GADAFFI MOSQUE, the work of peace continued where people from different backgrounds and religion gathered in the name of peace to find solutions and make the world a better place to live in.
+
+
+War is not a polite recreation but the vilest thing in life, and we ought to understand that and not play at war.
+</div>
         <div className="content"> 
         <div className="content1"> 
 CLEAN ONGOEL UGANDA is a Korean NON Government Organization that is remarkably impacting the lives of Ugandans.
@@ -29,8 +38,8 @@ There are over 300 members who have joined and the doors are still open to anyon
 
 </div>
 <div  className="recent-newsbible">
-   <h1>Year 2024 peace summit</h1>
-   <p>We invite all people regardless of their religion to join us in bible studying.< br/>Through our members we reachout to the community so that they join for a free bible course offered by our zion christian mission center. < br/> In the year 2024 over 110,000 people graduated from zion christian mission center.</p>
+   <h1>Annual peace summit</h1>
+   <p>Every year we hold a peace summit where we invite the community and government officials to join us as we do the work of peace. < br/> We achieve this through our we are one youth group and collaboraing with different peace groups..</p>
    <img src={imagesHwpl4} alt="banner2" className="sports6" />
 
    </div>
