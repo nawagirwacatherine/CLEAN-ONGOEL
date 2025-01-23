@@ -1,6 +1,7 @@
 import imagesHwpl1 from "../images/hwpl1.jpg";
 import imagesFooter from "../images/footer.jpg";
 import Footer from "../components/Footer.jsx"
+import imagesHwpl4 from "../images/hwpl4.jpg";
 
 
 function  AboutUs () {
@@ -24,7 +25,15 @@ We recently held a successful summit at Gadhafi Mosque with a number of religiou
 </div>
 <div className="content2"> 
 There are over 300 members who have joined and the doors are still open to anyone who wishes to be a part of this. As part of our expansion plan, we are extending our activities to other parts of Uganda like Mbarara, Gulu, and Jinja but also east and Central Africa as well.
-</div></div>
+</div>
+
+</div>
+<div  className="recent-newsbible">
+   <h1>Year 2024 peace summit</h1>
+   <p>We invite all people regardless of their religion to join us in bible studying.< br/>Through our members we reachout to the community so that they join for a free bible course offered by our zion christian mission center. < br/> In the year 2024 over 110,000 people graduated from zion christian mission center.</p>
+   <img src={imagesHwpl4} alt="banner2" className="sports6" />
+
+   </div>
          < Footer/>
         </>
  
