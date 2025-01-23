@@ -38,7 +38,7 @@ There are over 300 members who have joined and the doors are still open to anyon
 
 </div>
 <div  className="recent-newsbible">
-   <h1>Annual peace summit</h1>
+   <h1>Annual peace summit uganda</h1>
    <p>Every year we hold a peace summit where we invite the community and government officials to join us as we do the work of peace. < br/> We achieve this through our we are one youth group and collaboraing with different peace groups..</p>
    <img src={imagesHwpl4} alt="banner2" className="sports6" />
 

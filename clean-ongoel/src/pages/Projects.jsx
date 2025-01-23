@@ -1,11 +1,13 @@
 
 import images2BibleClub from "../images2/bible-club.jpg";
+import imagesBible5 from "../images/bible5.jpg";
 import images2Hwpl4 from "../images2/hwpl4.jpg";
 import images2IctClub3 from "../images2/ict-club3.jpg";
 import images2IctClub1 from "../images2/ict-club1.jpg";
 import images2SportsClub from "../images2/sports-club.jpg";
 import images2SportsClub2 from "../images2/sports-club2.jpg";
 import images2VolClub1 from "../images2/vol-club1.jpg";
+import imagesVol2 from "../images/vol2.jpg";
 import images2WelfareClub from "../images2/welfare-club.jpg";
 import Footer from "../components/Footer.jsx"
 
@@ -23,6 +25,7 @@ function  Projects () {
     <h1>Bible club</h1>
     <p>Join our Bible Club—a welcoming space where faith, fellowship, and growth come together! < br />Whether you're seeking deeper understanding, meaningful discussions, or a supportive community, we’d love for you to be part of this journey. Let’s explore God’s word and inspire one another to walk in His light!"  </p>
    <img src={images2BibleClub} alt="banner2" className="blood1" />
+   <img src={imagesBible5} alt="banner2" className="blood1" />
    </div>
    <div  className="recent-newshealth">
    <h1>Ict club</h1>
@@ -45,6 +48,7 @@ function  Projects () {
    <h1>Volunteering club</h1>
    <p>Be the change with the Volunteering Club! Join us to make a positive impact, give back to the community, and inspire hope through acts of kindness. < br/>Together, we can make a difference! </p>
    <img src={images2VolClub1} alt="banner2" className="sports6" />
+   <img src={imagesVol2} alt="banner2" className="sports6" />
    
    </div>
    </div>
