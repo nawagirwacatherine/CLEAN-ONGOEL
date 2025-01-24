@@ -7,7 +7,7 @@ function  HeroSection () {
 
 <div>CLEAN ONGOEL ASSOCIATION UGANDA
     
-    <p>It's a non government organization based in uganda</p>
+    <p>It's a non government organization </p>
 {/* <img src={imagesBanner2} alt="banner2" className="banner2" /> */}
 </div>
 </div>

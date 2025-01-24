@@ -392,13 +392,32 @@ color: white;
   
 
   @media (max-width: 768px) {
-    .news {
-      flex-direction: column;
-      align-items: center;
+    
+
+    .nav-item {
+      display: flex;
+      padding: 2px;
     }
 
-    .news  video {
-      width: 100%;
-      max-width: 500px;
+    .mission {
+      display: flex;
+      padding: 5px;
+    }
+
+    .recent-news {
+      display: flex;
+      flex-direction: column;
+      padding: 25px;
+    }
+    .recent-news1 {
+      display: flex;
+      flex-direction: column;
+      padding: 25px;
+    }
+
+    .recent-news2 {
+      display: flex;
+      flex-direction: column;
+      padding: 25px;
     }
   }
