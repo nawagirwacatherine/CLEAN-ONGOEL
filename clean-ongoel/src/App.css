@@ -335,6 +335,11 @@ color: white;
     margin-right: 20px;
     align-self: self-start;
   }
+
+  .form {
+    padding: 10px;
+    background-color: #359c27;
+  }
   .footer2{
     border-radius: 3px;
     width: 30px; 
