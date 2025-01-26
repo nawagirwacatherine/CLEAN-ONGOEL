@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Login () {
+function Login (prop) {
 
   const [ loginForm, setLoginForm] = useState(false);
   const [ registerSuccessMessage , setRegisterSuccessMessage]  = useState(false);
@@ -22,13 +22,13 @@ function Login () {
     <>
 
    <div className="form">
-    <button className="login" onClick={handleLoginClick}>Register</button>
-    <button  className="register" onClick={handleRegisterClick}>Logout</button>
+    <button className="login" onClick={handleLoginClick}>{prop.name}</button>
+    <button  className="register" onClick={handleRegisterClick}>{prop.name2}</button>
 
     { loginForm  && (
 
       <div className="login-form">
-        <form >
+        <form>
 
         <label>
          activity:

@@ -339,7 +339,24 @@ color: white;
   .form {
     padding: 10px;
     background-color: #359c27;
+    color: aliceblue;
   }
+
+  label {
+    display: flex;
+    gap: 10px;
+  }
+
+  button {
+    margin: 5px;
+    padding: 5px;
+    font-style: oblique;
+    border: none;
+    border-radius: 10px;
+    color: rgb(7, 123, 225);
+  }
+
+  
   .footer2{
     border-radius: 3px;
     width: 30px; 

@@ -10,12 +10,12 @@ function  Contact () {
               <div  className="recent-newsblood">
               <h1>For bible course and study</h1>
               <p className="to-form">Please fill the form below.< br /> we shall contact you or reachout to our different branches </p>
-           < Login/>
+           < Login  name = "Register"/>
              </div>
              <div  className="recent-newshealth">
              <h1>For other activities</h1>
              <p className="to-form"> Fill the form below.< br /> Don't forget to mention the activity of your interest </p>
-             < Login/>
+             < Login name="Register"/>
              </div>
              </div>
          < Footer />
