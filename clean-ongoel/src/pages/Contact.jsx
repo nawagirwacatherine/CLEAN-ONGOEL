@@ -14,8 +14,8 @@ function  Contact () {
              </div>
              <div  className="recent-newshealth">
              <h1>For other activities</h1>
-             <p className="to-form"> Fill the form below.< br /> Don't forget to mention the activity of your interest </p>
-             < Login name="Register"/>
+             <p className="to-form"> Fill the form below.< br /> Dont forget to mention the activity of your interest </p>
+             < Login name="Register" />
              </div>
              </div>
          < Footer />
