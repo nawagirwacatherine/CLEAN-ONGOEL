@@ -24,7 +24,7 @@ function Login (prop) {
 
    <div className="form">
     <button className="login" onClick={handleLoginClick}>{prop.name}</button>
-    <button  className="register" onClick={handleRegisterClick}>{prop.name2}</button>
+
 
     { loginForm  && (
 
